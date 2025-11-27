@@ -1,18 +1,18 @@
 # Ian Kim
-**Independent Research**
-**Mill Creek High School**
+**Independent Research**<br />
+**Mill Creek High School**<br />
 **October 13, 2025**
 
 # Wing Geometry and Camber Effects on Glider Performance
 
-
-
-
+<br />
 
 ## Abstract
 This study investigates how wing aspect ratio and camber depth affect glide performance in small foam-board gliders. Two rectangular wing geometries (4×24 in and 6×16 in) were tested under controlled mass and launch conditions with two camber depths (10 mm and 2 mm). The high–aspect ratio 4×24 in low-camber configuration achieved the greatest mean glide distance (11.87 m), while the 6×16 in low-camber model recorded the shortest (9.29 m). Statistical analysis confirmed that aspect ratio exerted the dominant influence on glide distance, with camber showing geometry-dependent effects. These results support classical aerodynamic predictions regarding induced drag, lift generation, and Reynolds-number sensitivity in low-speed glider designs.
 
 ---
+<br />
+<br />
 
 # 1. Introduction
 Wing design requires balancing lift, drag, and stability, and two geometric parameters—aspect ratio and camber—play central roles in this balance. Aspect ratio (AR), defined as span divided by chord, strongly influences induced drag: higher AR reduces wingtip vortices and improves lift efficiency. Camber modifies the airfoil curvature and shifts the lift curve, increasing lift at low angles of attack but often raising profile drag and sensitivity to separation, especially at low Reynolds numbers (Anderson, 2010).
@@ -26,6 +26,8 @@ This study examines how variations in AR and camber jointly affect glide perform
 3. Are the observed differences statistically significant, and what are their effect sizes?
 
 ---
+<br />
+<br />
 
 # 2. Methods
 
@@ -57,15 +59,21 @@ Two aerodynamic parameters frame the analysis:
 Induced drag for a finite wing scales approximately as Di = C2L / (πeAR) (where 𝑒 is Oswald efficiency), showing the inverse relationship between AR and induced drag. Taken together, these relations predict that AR will often dominate performance for small gliders while camber acts as a tuning parameter for lift, with its net benefit depending on AR, launch speed, and Reynolds number.
 
 
-## Statistical Analysis
+## 2.4 Statistical Analysis
 
 Welch’s t-tests (unequal variances) compared mean distances for each pair of interest. Bonferroni correction set the adjusted significance threshold to 𝛼 = 0.0167. Effect sizes were computed using Cohen’s d.
 
 ---
+<br />
+<br />
 
 # 3. Calculations & Estimates
 
 With these aerodynamic relationships established, the following calculations quantify the expected aerodynamic regimes for each configuration. All distance data was converted to meters for analysis. Conversions and constants used in aerodynamic estimates were: 1 in = 0.0254 meters. V = 10m/s, ρ = 1.225 kg·m^-3 (air density at sea level), μ = 1.81 × 10^-5 Pa·s (dynamic viscosity). For the tested geometries: 4x24 gives chord c = 4 in = 0.1016m and span b = 24in = 0.6096m, so AR ≈ 6.00. The 6x16 geometry gives c = 6 in = 0.1524 m and b = 16in = 0.4064 m, so AR ≈ 0.4064/0.1524 ≈ 2.67. Chord-based Reynolds numbers at V = 10m/s were estimated as Re = pVc/μ: for 4x24, Re ≈ 6.9 * 10^4; for 6x16, Re ≈ 1.0 * 10^5. These Re values place the models in a low-to-moderate Reynolds regime where laminar-to-transitional flow behavior can influence separation and profile drag, so small geometric changes (camber, surface roughness) may have outsized effects compared with higher-Re aircraft.
+
+---
+<br />
+<br />
 
 # 4. Results
 
@@ -81,7 +89,6 @@ With these aerodynamic relationships established, the following calculations qua
 Best configuration: **4×24, 2 mm**  
 Worst configuration: **6×16, 2 mm**
 
----
 
 ## 4.2 Camber Comparisons
 
@@ -108,10 +115,14 @@ Worst configuration: **6×16, 2 mm**
   - \( t = 5.89, p < 0.0001, d = 1.98 \) — extremely large effect favoring high AR.
 
 ---
+<br />
+<br />
 
 # 5. Visuals
 
 ---
+<br />
+<br />
 
 # 6. Disucssion
 The statistical outcomes directly connect to aerodynamic theory, as explored in the following discussion. The results demonstrate a clear aerodynamic pattern: aspect ratio (AR) is the primary determinant of glide performance, while camber’s impact depends strongly on wing geometry. The data confirms that the high-AR glider yielded significantly longer flights, even under variable outdoor conditions. This aligns with established aerodynamic theory: increasing aspect ratio reduces induced drag by spreading lift over a greater span, which diminishes both wingtip vortices and downwash (NASA Glenn Research Center, 2024; Hoerner, 1965; Raymer, 2012). However, while aspect ratio effects were consistent, camber produced more geometry-dependent outcomes.
@@ -121,6 +132,10 @@ The influence of camber is more nuanced. While increased camber enhances lift at
 These results point to a general rule of thumb for glider design: maximize aspect ratio first, then apply moderate camber based on model scale and flight speed. For small foam gliders operating near 10 m/s, shallow camber provides optimal efficiency, while deeper camber may introduce excess drag. For low-AR wings, slightly greater camber can help balance lift and drag. Large effect sizes (Cohen’s d ≈ 1.0–2.0) indicate that differences in aspect ratio are both statistically and practically significant for prototype optimization.
 
 Some variability in performance was introduced by environmental factors, primarily wind and launch inconsistency. Still, the relatively low standard deviations (SD < 1.7 m) support the reliability of the observed trends. Stability ratings also improved with moderate camber, reflecting smoother and more controlled flight. Overall, these outcomes confirm that even simple foam gliders display the same geometry–camber trade-offs observed in natural and engineered flight, linking small-scale experimentation to fundamental aerodynamic principles.
+
+---
+<br />
+<br />
 
 # 6. Conclusions & Limitations
 This study demonstrates how aspect ratio and camber jointly influence the glide performance of small foam aircraft. The longer, narrower 4×24 wing consistently outperformed the 6×16 configuration, confirming the aerodynamic principle that higher aspect ratios reduce induced drag and improve distance. The 4×24 model with low camber (2 mm) produced the greatest mean glide distance (11.87 ± 1.70 m), combining high efficiency with minimal curvature-related drag.
@@ -134,6 +149,13 @@ Several limitations should be acknowledged. Launch velocity and angle were not p
 Future work could mitigate these constraints by using an automated launcher, controlled indoor environment, and motion-tracking or onboard sensors to capture detailed flight paths. Studies involving flexible materials or variable-camber mechanisms could further illuminate aeroelastic interactions and strengthen links between small-scale experimentation, biological analogs, and modern engineering applications.
 
 Overall, this work demonstrates that even modest experimental setups can reveal meaningful aerodynamic relationships when variables are controlled and theory is carefully integrated. Aspect ratio emerges as the most influential factor for glide distance, with camber serving as a nuanced modifier—findings consistent with both classical aerodynamic theory and contemporary bio-inspired design research.
+
+---
+
+<br />
+<br />
+<br />
+<br />
 
 # References
 Anderson, John D. *Fundamentals of Aerodynamics*. McGraw-Hill, 2010.  
