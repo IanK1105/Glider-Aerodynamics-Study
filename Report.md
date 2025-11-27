@@ -5,7 +5,6 @@
 
 # Wing Geometry and Camber Effects on Glider Performance
 
-<br />
 
 ## Abstract
 This study investigates how wing aspect ratio and camber depth affect glide performance in small foam-board gliders. Two rectangular wing geometries (4×24 in and 6×16 in) were tested under controlled mass and launch conditions with two camber depths (10 mm and 2 mm). The high–aspect ratio 4×24 in low-camber configuration achieved the greatest mean glide distance (11.87 m), while the 6×16 in low-camber model recorded the shortest (9.29 m). Statistical analysis confirmed that aspect ratio exerted the dominant influence on glide distance, with camber showing geometry-dependent effects. These results support classical aerodynamic predictions regarding induced drag, lift generation, and Reynolds-number sensitivity in low-speed glider designs.
@@ -69,7 +68,38 @@ Welch’s t-tests (unequal variances) compared mean distances for each pair of i
 
 # 3. Calculations & Estimates
 
-With these aerodynamic relationships established, the following calculations quantify the expected aerodynamic regimes for each configuration. All distance data was converted to meters for analysis. Conversions and constants used in aerodynamic estimates were: 1 in = 0.0254 meters. V = 10m/s, ρ = 1.225 kg·m^-3 (air density at sea level), μ = 1.81 × 10^-5 Pa·s (dynamic viscosity). For the tested geometries: 4x24 gives chord c = 4 in = 0.1016m and span b = 24in = 0.6096m, so AR ≈ 6.00. The 6x16 geometry gives c = 6 in = 0.1524 m and b = 16in = 0.4064 m, so AR ≈ 0.4064/0.1524 ≈ 2.67. Chord-based Reynolds numbers at V = 10m/s were estimated as Re = pVc/μ: for 4x24, Re ≈ 6.9 * 10^4; for 6x16, Re ≈ 1.0 * 10^5. These Re values place the models in a low-to-moderate Reynolds regime where laminar-to-transitional flow behavior can influence separation and profile drag, so small geometric changes (camber, surface roughness) may have outsized effects compared with higher-Re aircraft.
+## 3.1 Constants Used
+- Air density ρ = 1.225 kg/m³
+- Dynamic viscosity μ = 1.81×10⁻⁵ Pa·s  
+- Estimated launch speed V ≈ 10.0 m/s  
+- Conversion: 1 in = 0.0254 m
+
+## 3.2 Geometry Conversions
+**4×24 wing**
+- chord = 4 in = 0.1016 m  
+- span = 24 in = 0.6096 m  
+- AR = 0.6096 / 0.1016 = **6.00**
+
+**6×16 wing**
+- chord = 6 in = 0.1524 m  
+- span = 16 in = 0.4064 m  
+- AR = 0.4064 / 0.1524 ≈ **2.67**
+
+## 3.3 Reynolds Number Calculations
+Formula: Re = (ρ × V × c) / μ
+
+**For 4×24 (c = 0.1016 m):**
+1. ρV = 1.225 × 10 = 12.25  
+2. 12.25 × 0.1016 = 1.245  
+3. Re = 1.245 / 1.81e−5 = **6.88×10⁴**
+
+**For 6×16 (c = 0.1524 m):**
+1. ρV = 12.25  
+2. 12.25 × 0.1524 = 1.8669  
+3. Re = 1.8669 / 1.81e−5 ≈ **1.03×10⁵**
+
+Both operate in the 7×10⁴–10⁵ range, where small geometry differences strongly affect lift/drag behavior.
+
 
 ---
 <br />
@@ -119,6 +149,8 @@ Worst configuration: **6×16, 2 mm**
 <br />
 
 # 5. Visuals
+ ![](images/graph.png)
+ ![](images/graph2.png)
 
 ---
 <br />
@@ -164,4 +196,3 @@ Mueller, Thomas J., and John D. DeLaurier. “Aerodynamics of Small-Scale and Mi
 NASA Glenn Research Center. *Beginner’s Guide to Aeronautics*. 2024, https://www.grc.nasa.gov/.  
 Raymer, Daniel P. *Aircraft Design: A Conceptual Approach*. AIAA Education Series, 2012.  
 Stanford, Bret, and Paul S. Beran. “Aerodynamic Optimization of Morphing Wing Structures for Efficiency and Stability.” *AIAA Journal*, vol. 59, no. 4, 2010 (revalidated 2021), pp. 1423–1435.
-
