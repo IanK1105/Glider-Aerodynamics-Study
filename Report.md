@@ -43,6 +43,9 @@ Four configurations were tested, combining two wing geometries with two camber d
 
 All gliders used identical fuselage components, foam-board wings, and wooden reinforcements to control mass and balance. Launches were performed by hand at an estimated 10 m/s with a slightly nose-up attitude. While human launches introduced some variability, technique was kept consistent across trials.
 
+ ![](images/IMG_4435.jpeg)
+ ![](images/IMG_4436.jpeg)
+
 ## 2.2 Environment & Measurements
 
 Testing occurred outdoors under light wind. Distance was measured in feet and inches, then converted to meters. Approximately twenty valid trials per configuration were recorded; collisions or visibly flawed launches were excluded. Stability was qualitatively rated on a 1–3 scale (1 = unstable, 3 = smooth).
